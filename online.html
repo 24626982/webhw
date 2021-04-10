@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>
+        線上預約
+    </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <style>
+        hr.style-five {
+            border: 0;
+            height: 0;
+            /* Firefox... */
+            box-shadow: 0 0 10px 1px black;
+        }
+
+        hr.style-five:after {
+            /* Not really supposed to work, but does */
+            content: "\00a0";
+            /* Prevent margin collapse */
+        }
+        .normalfont{
+            font-size: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container" style="text-align: center;">
+        <div class="row">
+            <div class="col-xl-12">
+                <h1>★幼兒園招生說明★</h1>
+                <p class="normalfont">109學年度招收年齡：足3-5歲幼兒(小.中.大班)</p>
+                <p class="normalfont" style="color: red;">109學年度(下學期)開學日期為:<u>110年2月1日(星期一)</u></p>
+                <br>
+                <h3>***重要***</h3>
+                <p class="normalfont">為避免影響園務運作，<u style="color: red;">目前暫不接受預約參觀</u>，預計安排於~</p>
+                <p class="normalfont"><b>110年4月23日(星期五)上午10點</b>舉辦招生說明會</p>
+                <p class="normalfont"><u style="color: brown;">請＂來電＂園方辦公室</u>登記報名(將不接受網路登記報名喔!)，謝謝您的配合。</p>
+                <br>
+                <h3>幼兒入學年齡檢索表</h3>
+                <br>
+                <h5 style="color: burlywood;">☆【109學年度】幼兒入學標準☆</h5>
+                <p class="normalfont">大班：103.9.2至104.9.1~五足歲</p>
+                <p class="normalfont">中班：104.9.2至105.9.1~四足歲</p>
+                <p class="normalfont">小班：105.9.2至106.9.1~三足歲</p>
+                <br>
+                <h5 style="color: darkblue;">☆【110學年度】幼兒入學標準☆</h5>
+                <p class="normalfont">大班：104.9.2至105.9.1~五足歲</p>
+                <p class="normalfont">中班：105.9.2至106.9.1~四足歲</p>
+                <p class="normalfont">小班：106.9.2至107.9.1~三足歲</p>
+                <br>
+                <h5 style="color:lightseagreen;">☆【111學年度】幼兒入學標準☆</h5>
+                <p class="normalfont">大班：105.9.2至106.9.1~五足歲</p>
+                <p class="normalfont">中班：106.9.2至107.9.1~四足歲</p>
+                <p class="normalfont">小班：107.9.2至108.9.1~三足歲</p>
+                <br>
+                <h3>欲報名或預約團體參觀家長，請先來電園方或利用網路預約，</h3>
+                <h3>我們將儘快為您安排，以節省您寶貴的時間。***目前暫停預約參觀***</h3>
+            </div>
+        </div>
+    </div>
+    <div>
+        <hr class="style-five">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4">
+                <h1>線上預約</h1>
+                <h5>請選擇您欲報名的課程，填妥相關資料，方便我們與您連絡</h5>
+            </div>
+            <div class="col-xl-8">
+                <form>
+                    <div class="form-row">
+                      <div class="col-md-6 mb-3">
+                        <label for="validationDefault01">聯絡人名稱</label>
+                        <input type="text" class="form-control" id="validationDefault01" placeholder="請輸入名稱" required>
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <label for="validationDefault01">聯絡人電話</label>
+                        <input type="text" class="form-control" id="validationDefault02" placeholder="請輸入電話" required>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="col-md-6 mb-3">
+                        <label for="validationDefault03">學生姓名</label>
+                        <input type="text" class="form-control" id="validationDefault03" placeholder="請輸入姓名" required>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <label for="validationDefault04">學生出生年月日</label>
+                        <input id="date" class="form-control" type="date" required>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <label for="validationDefault05">學生身份證字號</label>
+                        <input type="text" class="form-control" id="validationDefault04" placeholder="請輸入身分證字號" required>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                        <label class="form-check-label" for="invalidCheck2">
+                          我已詳細閱讀以上資訊
+                        </label>
+                      </div>
+                    </div>
+                    <button class="btn btn-primary container" type="submit">送出</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
